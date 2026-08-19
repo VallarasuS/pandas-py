@@ -1,12 +1,13 @@
 import pandas as pd
-from pandas import Series, DataFrame
 
 print(pd.__version__)
 
-products = pd.read_csv(r"./data/products.csv")
-customers = pd.read_excel(open(r"C:\Users\Valla\Desktop\customers.xlsx", "rb"))
 orders = pd.read_csv(r"./data/orders.csv")
+customers = pd.read_csv(r"./data/customers.csv")
+products = pd.read_csv(r"./data/products.csv")
 
-print(customers)
+sales =  pd.merge(orders, customers, on="customer_id").merge(products, on="product_id")
 
+sales["total"] = sales["price"] * sales["quantity"]
 
+print(sales.groupby("city")[["total"]].sum().sort_values("total", ascending=False).head(1))
