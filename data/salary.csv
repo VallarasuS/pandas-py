@@ -1,0 +1,8 @@
+Name,Age,City,Department,Salary,Experience
+Arun,21.0,Chennai,IT,35000.0,1.0
+Priya,24.0,Bangalore,HR,42000.0,3.0
+Rahul,,Chennai,Finance,38000.0,2.0
+Sneha,23.0,Coimbatore,IT,,4.0
+Karthik,25.0,,Marketing,50000.0,5.0
+Divya,21.0,Chennai,Finance,36000.0,
+Rahul,,Chennai,Finance,38000.0,2.0
