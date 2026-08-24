@@ -107,3 +107,25 @@ ts.rolling(window=2).mean()
 ```
 
 ---
+
+
+Display the first 5 rows.
+Display the last 3 rows.
+Find the number of rows and columns.
+Display all column names.
+Find the average salary.
+Find the highest salary.
+Find the employee with the highest salary.
+Display employees whose salary is greater than ₹40,000.
+Display employees from Chennai.
+Display employees from the IT department.
+Find the average salary by department.
+Find the maximum performance score.
+Sort employees by salary from highest to lowest.
+Sort employees by age.
+Find employees with more than 3 years of experience.
+Count employees in each department.
+Find the average performance by department.
+Add a new column called Bonus equal to 10% of salary.
+Add a column Senior where experience ≥ 4 is "Yes", otherwise "No".
+Find the average salary by city.
